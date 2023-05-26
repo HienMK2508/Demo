@@ -1,0 +1,28 @@
+/* Style the form container */
+div#frm-search-job {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Style the search input */
+input#keyword {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the select inputs */
+.select2-container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Style the search button */
+.btn-search-job {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    }

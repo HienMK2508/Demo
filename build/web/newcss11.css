@@ -1,0 +1,132 @@
+
+.btn-topcv-primary {
+    background-color: #00B14F;
+    color: white;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.banner {
+    background-color: #f6fbf9 !important;
+}
+
+.banner h1 {
+    color: #00B14F;
+    font-weight: bold;
+    font-size: 44px
+}
+
+.banner h3 {
+    color: #00B14F;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.banner p {
+    color: #212F3F;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 600
+}
+
+.banner>.row {
+    width: 85%;
+    margin: auto;
+}
+
+.banner>.container>.row>div:first-child {
+    padding-top: 20px;
+}
+
+.btn-green {
+    background: #00B14F;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-yellow {
+    background: #f1c40e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-custom:hover,
+.btn-custom:active {
+    color: white;
+}
+
+.btn-custom {
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+    padding: 10px 20px 10px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+@media only screen and (max-device-width: 992px) and (min-device-width: 900px) {
+    .banner .row {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-device-width: 900px) {
+    .banner h1 {
+        font-size: 26px;
+    }
+
+    .banner .row {
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+
+    .banner h3 {
+        font-size: 18px;
+    }
+
+    .banner>.container>.row>div:first-child {
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .btn-custom {
+        margin-bottom: 0px;
+        font-size: 16px;
+        width: 160px;
+    }
+
+    .banner img {
+        display: inline-block;
+    }
+}
+
+nav.navbar.navbar-default {
+    background: #f6fbf9;
+}
+
+.btn-topcv-primary {
+    background-color: #00B14F;
+    color: white;
+}
+
+.btn-topcv-primary:hover,
+.btn-topcv-primary:focus,
+.btn-topcv-primary:active {
+    background-color: #27AE60;
+    color: white;
+}
+
+.btn-yellow:focus,
+.btn-yellow:active,
+.btn-yellow:hover {
+    color: white;
+    background: #e2b400;
+}
+
